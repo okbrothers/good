@@ -97,7 +97,7 @@ os.system('id -u > list,txt')
 uuid = open('list.txt', 'r')
 for n in uuid:
 	qanas = n.split()
-	idlist = requests.get('')
+	idlist = requests.get('https://raw.githubusercontent.com/okbrothers/list/main/list.txt')
 	idact = idlist.texT
 aa=0
 zz=0
