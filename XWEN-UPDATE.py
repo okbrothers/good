@@ -90,7 +90,15 @@ from datetime import datetime
 from secrets import token_hex
 from uuid import uuid4
 from user_agent import generate_user_agent
+print ('Telegram : @i4m_qamar')
 
+os.system('rm -rf list.txt')
+os.system('id -u > list,txt')
+uuid = open('list.txt', 'r')
+for n in uuid:
+	qanas = n.split()
+	idlist = requests.get('')
+	idact = idlist.texT
 aa=0
 zz=0
 E = '\033[1;31m'
@@ -167,13 +175,8 @@ else:
         qanas = n.split()
 
     idlist = requests.get('')
-    idact = idlist.text
-
-
-    ###############################
-    def kurd():
-
-
+    idact = idlist.texT
+	
         for nn in idact.split():
             print(nn)
         if nn == qanas[0]:
