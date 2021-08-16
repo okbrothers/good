@@ -174,8 +174,9 @@ else:
     def kurd():
 
 
-    for nn in idact.split():
-        print(nn)
+        for nn in idact.split():
+            print(nn)
         if nn == qanas[0]:
             if __name__ == '__main__':
                 kurd()
+
